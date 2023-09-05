@@ -1,0 +1,73 @@
+/* Soda.css */
+
+/* Style for the soda container */
+.soda-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* Set background color as needed */
+    padding: 20px; /* Add some padding */
+    min-height: 100vh;
+  }
+  
+  .text-container {
+    flex: 1; /* Let the text container grow to take available space */
+    text-align: center;
+  }
+
+  /* Style for both soda images */
+  .rotate-image1,
+  .rotate-image2 {
+    width: 1000px; /* Adjust the width of the images */
+    height: 1000px; /* Adjust the height of the images */
+    animation: rotate 5s linear infinite;
+  }
+  
+  /* Style for the left soda image */
+  .left-image {
+    transform-origin: left center; /* Rotate from the left */
+  }
+  
+  /* Style for the right soda image */
+  .right-image {
+    transform-origin: right center; /* Rotate from the right */
+  }
+  
+  /* Style for the "NOOO SUGARR!!!" text */
+  .soda-text {
+    text-decoration: none;
+    color: white;
+    font-family: Impact, sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0px 2px 0 #000, 2px 0px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 2px 5px #000;
+    margin: 0; /* Remove default margin for <p> */
+  }
+  
+  /* Style for the "GO BACK" link */
+  .go-back-link {
+    text-decoration: none;
+    color: white;
+    font-family: Impact, sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0px 2px 0 #000, 2px 0px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 2px 5px #000;
+  }
+    .rotate-image1,
+  .rotate-image2 {
+    width: 100px; 
+    height: 100px; 
+    animation: rotate 5s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

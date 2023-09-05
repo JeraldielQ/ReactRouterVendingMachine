@@ -1,0 +1,47 @@
+/* Sardines.css */
+
+/* Style for the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style for the sardines container */
+  .sardines-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    max-width: 300px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Style for the sardines text */
+  .sardines-text {
+    text-decoration: none;
+    color: white;
+    font-family: Impact, sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0px 2px 0 #000, 2px 0px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 2px 5px #000;
+    margin: 0; /* Remove default margin for <p> */
+  }
+  
+  /* Style for the "GO BACK" link */
+  .go-back-link {
+    text-decoration: none;
+    color: white;
+    font-family: Impact, sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0px 2px 0 #000, 2px 0px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 2px 5px #000;
+  }
+  
